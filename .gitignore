@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# IDE or Editor files
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Output files
+__output__/
+output/
+
+# macOS-specific files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+#Configs
+src/config/config.yml
+
+#terraform
+/tf/.terraform
+/tf/.terraform.lock.hcl
+/tf/*.zip
+/tf/activity.tfplan
+!/tf/*/*/*.tfvars
+!/tf/env/common.tfvars
+
+#data
+data/
+
+#logs
+/logs/
+
+
+/*.bak
+
